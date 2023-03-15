@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(61, 59, 59);
+    color: aliceblue;
+}
+
+#quiz{
+    background-color: rgb(185, 185, 185);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 20px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    max-width: 600px;
+}
+
+button[type="submit"]{
+    margin-top: 20px;
+    background-color: rgb(108, 160, 29);
+    color: aliceblue;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+h3{
+    margin-top: 20px;
+}
+
+label{
+    display: block;
+    margin-bottom: 10px;
+}
+
+button[type="submit"]:hover{
+    background-color: rgb(121, 180, 32);
+}

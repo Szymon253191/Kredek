@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(61, 59, 59);
+    color: aliceblue;
+}
+
+#fade {
+    opacity: 1;
+    transition: 1s opacity;
+    font-size: 32px;
+    padding: 50px;
+    margin: auto;
+    margin-top: 200px;
+    background-color: rgb(185, 185, 185);
+    max-width: 1000px;
+    border-radius: 20px;
+    box-shadow: 30px 30px 10px black;
+    font-style: italic;
+}
