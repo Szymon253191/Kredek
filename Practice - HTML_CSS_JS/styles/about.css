@@ -1,0 +1,10 @@
+body {
+    background-color: rgb(143, 210, 255);
+    color: rgb(39, 39, 39);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+}
+
+#about-text {
+    margin: 100px;
+}

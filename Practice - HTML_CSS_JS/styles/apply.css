@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(143, 210, 255);
+    color: rgb(39, 39, 39);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+}
+
+#message {
+    margin-top: 200px;
+    text-align: center;
+    font-size: 60px;
+}
+
+#result {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.correct {
+    color: green;
+}
+
+.incorrect {
+    color: red;
+}
