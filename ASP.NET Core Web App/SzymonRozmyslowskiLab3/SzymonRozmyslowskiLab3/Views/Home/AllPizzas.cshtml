@@ -1,0 +1,41 @@
+﻿@model IEnumerable<SzymonRozmyslowskiLab3.Models.Pizza>
+
+@{
+	ViewData["Title"] = "Pizza Menu";
+}
+
+<h1>Pizza Menu:</h1>
+
+<table class="table">
+	<thead>
+		<tr>
+			<th>Numer</th>
+			<th>Nazwa</th>
+			<th>Cena</th>
+			<th>Zdjecie</th>
+			<th></th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach(var pizza in Model)
+		{
+			<tr>
+				<td>
+					@pizza.Id
+				</td>
+				<td>
+					@pizza.Name
+				</td>
+				<td>
+					@pizza.Price
+				</td>
+				<td>
+					<img src="~/images/@pizza.Image" style="height: 9rem; width: 15rem" class="rounded"/>
+				</td>
+				<td>
+					@Html.ActionLink("Szczególy", "PizzaDetails", new { id = pizza.Id } )
+				</td>
+			</tr>
+		}
+	</tbody>
+</table>
