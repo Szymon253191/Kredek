@@ -16,6 +16,18 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Szymon\Kredek\ZAJ_2\SzymonRozmyslowskiLab3\SzymonRozmyslowskiLab3
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Szymon/Kredek/ZAJ_2/SzymonRozmyslowskiLab3/SzymonRozmyslowskiLab3/Views/Cart/CreateOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxDcmVhdGVPcmRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Szymon/Kredek/ZAJ_2/SzymonRozmyslowskiLab3/SzymonRozmyslowskiLab3/Views/Cart/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Szymon/Kredek/ZAJ_2/SzymonRozmyslowskiLab3/SzymonRozmyslowskiLab3/Views/Cart/PlacedOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxQbGFjZWRPcmRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Szymon/Kredek/ZAJ_2/SzymonRozmyslowskiLab3/SzymonRozmyslowskiLab3/Views/Home/AllPizzas.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBbGxQaXp6YXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

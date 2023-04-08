@@ -17,7 +17,7 @@ namespace SzymonRozmyslowskiLab3.Repositories
             return _pizzas.ToList();
         }
 
-        public Pizza GetPizza(int id)
+        public Pizza? GetPizza(int id)
         {
             return _pizzas.FirstOrDefault(pizza => pizza.Id == id);
         }
