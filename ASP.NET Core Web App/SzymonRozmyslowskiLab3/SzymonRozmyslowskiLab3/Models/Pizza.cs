@@ -1,4 +1,6 @@
-﻿namespace SzymonRozmyslowskiLab3.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace SzymonRozmyslowskiLab3.Models
 {
     public class Pizza
     {
@@ -11,10 +13,20 @@
             Image = image;
         }
 
+        [Key]
         public int Id { get; set; }
+
+        [Required]
+        [MaxLength(100)]
         public string Name { get; set; }
+
+        [Required]
         public decimal Price { get; set; }
+
+        [Required]
         public string Description { get; set; }
+
+        [Required]
         public string Image { get; set; }
     }
 }

@@ -4,7 +4,7 @@ namespace SzymonRozmyslowskiLab3.Repositories
 {
     public class FakePizzaRepository : IPizzaRepository
     {
-        private static readonly ICollection<Pizza> _pizzas = new List<Pizza>()
+        private static ICollection<Pizza> _pizzas = new List<Pizza>()
         {
             new(1, "Hawajska", 19.99M, "Najlepsza pizza na świecie z ananasem", "hawajska.png"),
             new(2, "Pepperoni", 18.99M, "Ostra pizzka z salami", "pepperoni.png"),

@@ -6,6 +6,6 @@ namespace SzymonRozmyslowskiLab3.Repositories
     {
         IEnumerable<Pizza> GetAll();
 
-        Pizza GetPizza(int id);
+        Pizza? GetPizza(int id);
     }
 }

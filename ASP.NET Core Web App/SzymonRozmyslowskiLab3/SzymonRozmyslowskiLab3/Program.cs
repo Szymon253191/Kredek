@@ -1,10 +1,14 @@
+using Microsoft.EntityFrameworkCore;
+using SzymonRozmyslowskiLab3.Models;
 using SzymonRozmyslowskiLab3.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-builder.Services.AddScoped<IPizzaRepository, FakePizzaRepository>();
+builder.Services.AddDbContext<DatabaseContext>(opt => opt.UseSqlServer(builder.Configuration.GetConnectionString("PizzaDBContext")));
+builder.Services.AddScoped<IPizzaRepository, PizzaRepository>();
+builder.Services.AddScoped<IOrderRepository, OrderRepository>();
 builder.Services.AddSession();
 
 var app = builder.Build();
